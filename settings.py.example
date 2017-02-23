@@ -1,0 +1,16 @@
+"""Configure the XMPP account, RabbitMQ and the database"""
+# Licensed under the MIT License, see LICENSE for details
+
+# XMPP account settings
+JID = 'user@example.com/resource'
+PASSWORD = 'password'
+
+# RabbitMQ settings
+MQ_HOST = 'localhost'
+MQ_PORT = 5672
+MQ_USER = 'user'
+MQ_PASSWORD = 'password'
+QUEUE = 'notifications'
+
+# Database settings
+DATABASE = 'sqlite:///addressees.db'
